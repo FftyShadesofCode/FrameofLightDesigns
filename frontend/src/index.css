@@ -1,0 +1,55 @@
+:root {
+  --primary-black: #080808;
+  --primary-white: #f5f5f5;
+  --onyx: #353839;
+  --lt-grey: #d3d3d3;
+  --dk-grey: #708090;
+  --primary-silver: #c0c0c0;
+  --dk-silver: #838996;
+  --primary-blue: #3f00ff;
+  --lt-blue: #6495ed;
+  --cerulean: #2a52be;
+  --cobalt: #0047ab;
+  --royal-blue: #041690;
+  --navy-blue: #000080;
+  --midnight-blue: #191970;
+  --primary-red: #ff0000;
+  --bright-red: #d40000;
+  --crimson-red: #c90016;
+  --dkRed: #8b0000;
+  --rosewood: #65000b;
+  --primary-lavender: #b57edc;
+  --lt-lavender: #e6e6fa;
+  --dk-lavender: #734f96;
+  --primary-orchid: #da70d6;
+  --lt-orchid: #e6a8d7;
+  --dk-orchid: #9932cc;
+  --magenta: #ff00ff;
+  --primary-cyan: #00ffff;
+  --lt-cyan: #e0ffff;
+  --dk-cyan: #008b8b;
+  --teal: #008080;
+  --aquamarine: #7fffd4;
+  --turquoise: #40e0d0;
+  --cadet-blue: #5f9ea0;
+  --lt-sea-green: #20b2aa;
+  --tiffany-blue: #0abab5;
+  --jade: #00a86b;
+  --eucalyptus: #44d7a8;
+  --emerald: #319177;
+  --nav-background: rgba(100, 149, 237, 0.50);
+  --facebook: #1877f2;
+  --linkedIn: #0077b5;
+  --instagram: #e1306c;
+  --gitHub: #6e5494;
+  --twitter: #1da1f2;
+  --pinterest: #e60023
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant SC', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

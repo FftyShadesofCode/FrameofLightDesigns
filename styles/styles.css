@@ -1,0 +1,65 @@
+:root{
+    --primary: #0000cd;
+    --secondary: #e7feff;
+    --teal: #008080;
+    --dk-blue: #00008b;
+    --grey: #708090;
+    --dk-grey: #2f4f4f;
+    --black: #080808;
+    --gold: #ffd700;
+    --crimson: #e8000d;
+    --lava: #cf1020;
+    --silver: #c0c0c0;
+    --azure: #f0ffff;
+    --lavender-light: #e6e6fa;
+    --lavender-rich: #a76bcf;
+    --orchid: #da70d6;
+    --lilac: #b666d2;
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+    background-color: var(--dk-blue);
+}
+
+.login-div{
+    width: 430px;
+    height: 700px;
+    padding: 6px 35px 35px 35px;
+    border-radius: 45px;
+    background-color: var(--dk-blue);
+    box-shadow: 13px 13px 20px var(--orchid), -13px -13px 20px var(--orchid);
+}
+
+.logo{
+    background: url(/logo.png);
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
