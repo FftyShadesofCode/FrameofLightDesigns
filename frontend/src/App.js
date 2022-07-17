@@ -1,11 +1,17 @@
 import React, { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+import Home from './pages/Home'
+
+import Navbar from '../src/components/Navbar/Navbar'
+import Footer from '../src/components/Footer/Footer'
 
 import './App.css';
 
-function App() {
+const App = () => {
 
   const [loading, setLoading] = useState(true)
-  const preloader = document.query.getElementById('preloader')
+  const preloader = document.getElementById('preloader')
 
   if (preloader) {
     setTimeout(() => {
@@ -17,7 +23,13 @@ function App() {
   return (
     !loading && (
         <div className='App'>
-
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route  path='/' element={<Home />} />
+            </Routes>
+            <Footer />
+          </Router>
         </div>
     )
   );
