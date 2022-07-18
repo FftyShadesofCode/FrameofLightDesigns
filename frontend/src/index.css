@@ -45,11 +45,3 @@
   --twitter: #1da1f2;
   --pinterest: #e60023
 }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Cormorant SC', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}

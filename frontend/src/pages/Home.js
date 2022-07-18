@@ -23,7 +23,7 @@ export default function Home() {
                         }}
                     >
                         {/* Element cover */}
-                        <div className="cover bg-transparent-6-dark" />
+                        {/*<div className="cover bg-transparent-6-dark" />*/}
                         {/* Begin intro caption
 				=========================
 				* Use classes "align-center" and "text-center" to align caption to the center.
@@ -51,15 +51,6 @@ export default function Home() {
                         {/*    </div>*/}
                         {/*</div>*/}
                         {/* End intro caption */}
-                        {/* Begin made with love */}
-                        <div className="made-with-love hide-from-sm">
-                            <p>
-                                Made With{" "}
-                                <span className="text-red">
-            <i className="far fa-heart" />
-          </span>
-                            </p>
-                        </div>
                         {/* End made with love */}
                     </section>
                     {/* End intro section */}

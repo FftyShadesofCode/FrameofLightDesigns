@@ -7,75 +7,64 @@ import Email from '../../assets/icons/email.png'
 
 export default function Footer() {
     return (
-        <div>
-            <>
-                {/* Begin footer */}
-                <footer id="footer">
-                    <div className="footer-inner">
-                        <div className="container-fluid">
-                            <div className="row">
-                                <div className="col-sm-6">
-                                    <div className="copyright">© <a href='https://www.fiftyshdesofcode.com' target='_blank'>Fifty Shades of Code</a></div>
-                                </div>{" "}
-                                {/* /.col */}
-                                <div className="col-sm-6">
-                                    <div className="social-icons">
-                                        <ul>
-                                            <li>
-                                                <a
-                                                    target="_blank" rel='noreferrer'
-                                                    href="https://www.facebook.com/FrameOfLightDesigns"
-                                                    title="Follow us on Facebook"
-                                                >
-                                                    <img src={Facebook} />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    target="_blank" rel='noreferrer'
-                                                    href="https://www.instagram.com/frameoflightdesigns/"
-                                                    title="Follow us on Instagram"
-                                                >
-                                                    <img src={Instagram} />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    target="_blank" rel='noreferrer'
-                                                    href="https://www.pinterest.com/frameoflight"
-                                                    title="Follow us on Pinterest"
-                                                >
-                                                    <img src={Pinterest} />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a
-                                                    target="_blank" rel='noreferrer'
-                                                    href="mailto:philiprmcdavid@gmail.com"
-                                                    title="Contact Us"
-                                                >
-                                                    <img src={Email} />
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>{" "}
-                                {/* /.col */}
-                            </div>{" "}
-                            {/* /.row */}
+        <footer id="footer">
+            <div className="footer-inner">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <div className="copyright">2022 © <a href='https"//www.fiftyshdesofcode.com'>Fifty Shades of Code</a></div>
                         </div>{" "}
-                        {/* /.container */}
+                        {/* /.col */}
+                        <div className="col-sm-6">
+                            <div className="social-icons">
+                                <ul>
+                                    <li>
+                                        <a
+                                            target="_blank" rel='noreferrer'
+                                            href="https://www.facebook.com/FrameOfLightDesigns"
+                                            title="Follow us on Facebook"
+                                        >
+                                            <img src={Facebook} alt='' className='Facebook'/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            target="_blank" rel='noreferrer'
+                                            href="https://www.instagram.com/frameoflightdesigns/"
+                                            title="Follow us on Instagram"
+                                        >
+                                            <img src={Instagram} alt='' className='Instagram'/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            target="_blank" rel='noreferrer'
+                                            href="https://www.pinterest.com/frameoflight"
+                                            title="Follow us on Pinterest"
+                                        >
+                                            <img src={Pinterest} alt='' className='Pinterest'/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            target="_blank" rel='noreferrer'
+                                            href="mailto:frameoflightdesigner@gmail.com"
+                                            title="Contact Us"
+                                        >
+                                            <img src={Email} alt='' className='Email'/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>{" "}
+                        {/* /.col */}
                     </div>{" "}
-                    {/* /.footer-inner */}
-                </footer>
-                {/* End footer */}
-                {/* End body content */}
-                {/* Scroll to top button */}
-                <a href="#body" className="scrolltotop sm-scroll">
-                    <i className="fas fa-chevron-up" />
-                </a>
-            </>
+                    {/* /.row */}
+                </div>{" "}
+                {/* /.container */}
+            </div>{" "}
+            {/* /.footer-inner */}
+        </footer>
 
-        </div>
     );
 };
