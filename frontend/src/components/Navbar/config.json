@@ -1,0 +1,47 @@
+
+[
+  {
+    "name":"Home",
+    "path": "/"
+  },
+  {
+    "name":"About Us",
+    "path": "/about-us",
+    "items":[
+      {
+        "name":"Our Family",
+        "path": "/our-family"
+      },
+      {
+        "name":"Our Story",
+        "path": "/our-story"
+      },
+      {
+        "name": "Why Us?",
+        "path": "/why-us"
+      }
+    ]
+  },
+  {
+    "name":"Services",
+    "path": "/services",
+    "items": [
+      {
+        "name": "Floral Design",
+        "path": "/floral-design"
+      },
+      {
+        "name": "Photography and Media",
+        "path": "/photography-and-media"
+      }
+    ]
+  },
+  {
+    "name":"Reviews",
+    "path": "/reviews"
+  },
+  {
+    "name":"Contact Us",
+    "path": "/contact-us"
+  }
+]
