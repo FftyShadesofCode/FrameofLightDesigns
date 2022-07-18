@@ -7,7 +7,6 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from '../src/components/Footer/Footer'
 
 import './App.css';
-import 'bootstrap/dist/css/bootstrap-grid.min.css'
 
 const App = () => {
 
