@@ -37,7 +37,8 @@
   --jade: #00a86b;
   --eucalyptus: #44d7a8;
   --emerald: #319177;
-  --nav-background: rgba(100, 149, 237, 0.50);
+  --nav-background: linear-gradient(to top, var(--midnight-blue), var(--lt-blue));
+  --footer-background: linear-gradient(to top, var(--lt-blue), var(--midnight-blue));
   --facebook: #1877f2;
   --linkedIn: #0077b5;
   --instagram: #e1306c;

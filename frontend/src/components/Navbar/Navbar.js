@@ -12,7 +12,9 @@ function Navbar() {
         <header>
             <nav className='nav'>
                 <div className='brand'>
-                    <img src={Logo} alt='' className='logo'/>
+                    <a href="/" >
+                        <img src={Logo} alt='' className='logo'/>
+                    </a>
                 </div>
                 <ul className="menu">
                     {menus && menus.map((item,idx) =>

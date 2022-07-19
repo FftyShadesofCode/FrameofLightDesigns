@@ -12,12 +12,12 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="footer-site-info">
-                            2022 © ALL RIGHTS RESERVED by{" "}
+                            2022 © All Rights Reserved by{" "}
                             <a
                                 href="https://www.fiftyshdesofcode.com"
                                 target="_blank"
                             >
-                                Fifty Shades of Code
+                                FIFTY SHADES OF CODE
                             </a>
                         </div>
                     </div>
