@@ -15,19 +15,27 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 /************ Navbar Css ************/
+header {
+    height: 100px;
+    background: var(--nav-background);
+    /*box-shadow: 2px 2px 10px 2px var(--eucalyptus);*/
+}
 .nav-area {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 0 auto;
-    padding: 0 20px;
-    height: 100px;
-    background: var(--nav-background);
-    box-shadow: 2px 2px 10px 2px var(--eucalyptus);
+    padding: 10px 20px;
+    height: 85px;
 }
 
-.nav-area .logo {
+header .nav-area .logo {
+    padding: 25px;
     width: 7.5rem;
+}
+
+header .nav-area .logo img {
+    width: 100%;
 }
 
 .nav-area a:hover {
@@ -65,11 +73,8 @@ body {
 
 .menu-items a,
 .menu-items button {
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-    color: var(--lt-lavender);
+    text-align: left;
+    padding: 0.7rem 1rem;
 }
 
 .menu-items a:hover,
@@ -91,6 +96,11 @@ body {
 
 .dropdown.hide {
     position: absolute;
+    display: none;
+}
+
+.dropdown.show {
+    display: block;
     right: 0;
     left: auto;
     box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
@@ -101,19 +111,14 @@ body {
     padding: 0.5rem 0;
     list-style: none;
     background-color: var(--lt-blue);
+    color: var(--lt-lavender);
     border-radius: 0.5rem;
-    display: none;
-}
-
-.dropdown.show {
-    display: block;
 }
 
 .dropdown .dropdown-submenu {
-    position: absolute;
+    position: relative;
     left: 100%;
-    top: -7px;
-    z-index: 9999;
+    top: -100px;
 }
 
 
@@ -282,7 +287,7 @@ navigation li a, .custom-footer, .custom-footer li a {
 /* Slider */
 .carousel {
     position: relative;
-    width: 70rem;
+    width: 60rem;
     height: 40rem;
     overflow: hidden;
     margin: 0 auto;
@@ -345,9 +350,9 @@ navigation li a, .custom-footer, .custom-footer li a {
     bottom: 20px;
     right: 0;
     height: 20px;
-    width: 415px;
+    width: 615px;
     z-index: 2;
-    text-align: left;
+    text-align: center;
     color: #fff;
     line-height: 21px;
     font-size: 14px;

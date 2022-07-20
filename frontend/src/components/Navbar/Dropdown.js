@@ -5,7 +5,7 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
     const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : ""
 
     return (
-        <ul className={`dropdown${dropdownClass} ${dropdown ? "show" : "hide"}`}>
+        <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : "hide"}`}>
             {submenus.map((submenu, index) => (
                 <MenuItems items={submenu} key={index} depthLevel={depthLevel} />
             ))}
@@ -13,4 +13,4 @@ const Dropdown = ({ submenus, dropdown, depthLevel }) => {
     )
 }
 
-export default Dropdown;
+export default Dropdown

@@ -46,7 +46,7 @@ const MenuItems = ({ items, depthLevel }) => {
                         onClick={() => setDropdown((prev) => !prev)}
                     >
                         {items.title}{" "}
-                        {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+                        {depthLevel > 0 ? <span>&raquo</span> : <span className="arrow" />}
                     </button>
                     <Dropdown
                         depthLevel={depthLevel}
@@ -61,4 +61,4 @@ const MenuItems = ({ items, depthLevel }) => {
     )
 }
 
-export default MenuItems;
+export default MenuItems
