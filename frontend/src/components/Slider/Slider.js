@@ -55,7 +55,7 @@ export default function Slider() {
 
             <input type='checkbox' className='faux-ui-facia'/>
             <div className='slide' slide='6' annot='One of many shots in a photo-series I do called Through the Eyes of Horses'>
-                <img src={Slide6} alt='One of many shots in a photo-series I do called Through the Eyes of Horses'/>
+                <img src={Slide6} alt='One of many shots in a series I do called Through the Eyes of Horses'/>
             </div>
 
             <input type='checkbox' className='faux-ui-facia'/>

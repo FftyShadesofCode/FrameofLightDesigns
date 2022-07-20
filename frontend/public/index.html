@@ -94,5 +94,20 @@
 
 <script type="text/jsx" src='src/components/theme.js'></script>
 
+  <script>
+    var dropdown = document.getElementById('dropdown')
+
+    if(dropdown){
+      var i
+      var len = dropdown.length
+
+      for(i = 0; i < len; i++) {
+        dropdown.children[i].addEventListener('hover', function(){
+          alert('Redirect to ' + this.innerHTML)
+        })
+      }
+    }
+  </script>
+
   </body>
 </html>

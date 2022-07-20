@@ -15,48 +15,48 @@ export default function Footer() {
                             2022 © All Rights Reserved by{" "}
                             <a
                                 href="https://www.fiftyshdesofcode.com"
-                                target="_blank"
+                                target="_blank" rel='noreferrer'
                             >
                                 FIFTY SHADES OF CODE
                             </a>
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <nav
-                            id="footer-navigation"
-                            className="site-navigation footer-navigation centered-box"
-                            role="navigation"
-                        >
-                            <ul
-                                id="footer-menu"
-                                className="nav-menu styled clearfix inline-inside"
-                            >
-                                <li
-                                    id="menu-item-26"
-                                    className="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"
-                                >
-                                    <a href="#">Support</a>
-                                </li>
-                                <li
-                                    id="menu-item-27"
-                                    className="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"
-                                >
-                                    <a href="#">Contact Us</a>
-                                </li>
-                                <li
-                                    id="menu-item-28"
-                                    className="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"
-                                >
-                                    <a href="#">Disclaimer</a>
-                                </li>
-                                <li
-                                    id="menu-item-29"
-                                    className="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"
-                                >
-                                    <a href="#">Add more</a>
-                                </li>
-                            </ul>
-                        </nav>
+                        {/*<nav*/}
+                        {/*    id="footer-navigation"*/}
+                        {/*    className="site-navigation footer-navigation centered-box"*/}
+                        {/*    role="navigation"*/}
+                        {/*>*/}
+                        {/*    <ul*/}
+                        {/*        id="footer-menu"*/}
+                        {/*        className="nav-menu styled clearfix inline-inside"*/}
+                        {/*    >*/}
+                        {/*        <li*/}
+                        {/*            id="menu-item-26"*/}
+                        {/*            className="menu-item menu-item-type-custom menu-item-object-custom menu-item-26"*/}
+                        {/*        >*/}
+                        {/*            <a href="/">Support</a>*/}
+                        {/*        </li>*/}
+                        {/*        <li*/}
+                        {/*            id="menu-item-27"*/}
+                        {/*            className="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"*/}
+                        {/*        >*/}
+                        {/*            <a href="/">Contact Us</a>*/}
+                        {/*        </li>*/}
+                        {/*        <li*/}
+                        {/*            id="menu-item-28"*/}
+                        {/*            className="menu-item menu-item-type-custom menu-item-object-custom menu-item-28"*/}
+                        {/*        >*/}
+                        {/*            <a href="/">Disclaimer</a>*/}
+                        {/*        </li>*/}
+                        {/*        <li*/}
+                        {/*            id="menu-item-29"*/}
+                        {/*            className="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"*/}
+                        {/*        >*/}
+                        {/*            <a href="/">Add more</a>*/}
+                        {/*        </li>*/}
+                        {/*    </ul>*/}
+                        {/*</nav>*/}
                     </div>
                     <div className="col-md-3">
                         <div id="footer-socials">
