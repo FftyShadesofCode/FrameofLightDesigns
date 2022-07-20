@@ -1,30 +1,31 @@
-import React from "react";
-import TopMenuItem from "./TopMenuItem"
-import Button from "./Button";
+import React from "react"
 
+import MenuItems from './MenuItems'
+import Button from "./Button"
+
+import { menuItems } from '../menuItems'
 import Logo from '../../assets/logo.png'
 
 function Navbar() {
 
-    const menus = require("./config")
-
     return (
         <header>
-            <nav className='nav'>
+            <nav className='nav-area'>
                 <div className='brand'>
                     <a href="/" >
                         <img src={Logo} alt='' className='logo'/>
                     </a>
                 </div>
-                <ul className="menu">
-                    {menus && menus.map((item,idx) =>
-                        <TopMenuItem item={item} key={idx}></TopMenuItem>
-                    )}
+                <ul className="menus">
+                    {menuItems.map((menu, index) => {
+                        const depthLevel = 0;
+                        return <MenuItems items={menu} key={index} depthLevel={depthLevel} />
+                    })}
                 </ul>
                 <Button />
             </nav>
         </header>
-    );
+    )
 }
 
 export default Navbar;

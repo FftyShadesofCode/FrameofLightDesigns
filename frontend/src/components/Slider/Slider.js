@@ -16,249 +16,75 @@ import Slide13 from "../../assets/slide/slide-13.jpg"
 
 export default function Slider() {
     return (
-        <div className="csslider1 autolay">
-            <input name="cs_anchor_1" id="cs_slide1_0" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_1" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_2" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_3" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_4" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_5" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_6" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_7" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_8" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_9" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_10" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_11" type="radio" className="cs_anchor slide" />
-            <input name="cs_anchor_1" id="cs_slide1_12" type="radio" className="cs_anchor slide" />
+        <div className='carousel'>
 
-            <input name="cs_anchor_1" id="cs_slide1_play1" type="radio" className="cs_anchor" />
-            <input name="cs_anchor_1" id="cs_slide1_pause1" type="radio" className="cs_anchor" />
-
-            <ul>
-                <div style={{ width: '100%', visibility: 'hidden', fontSize: '0', lineHeight: '0' }}>
-                    <img src={Slide1} style={{ width: '100%' }} />
-                </div>
-                <li className='num0 img'>
-                    <img src={Slide1} alt='' title='' />
-                </li>
-                <li className='num1 img'>
-                    <img src={Slide2} alt='' title='' />
-                </li>
-                <li className='num2 img'>
-                    <img src={Slide3} alt='' title='' />
-                </li>
-                <li className='num3 img'>
-                    <img src={Slide4} alt='' title='' />
-                </li>
-                <li className='num4 img'>
-                    <img src={Slide5} alt='' title='' />
-                </li>
-                <li className='num5 img'>
-                    <img src={Slide6} alt='' title='' />
-                </li>
-                <li className='num6 img'>
-                    <img src={Slide7} alt='' title='' />
-                </li>
-                <li className='num7 img'>
-                    <img src={Slide8} alt='' title='' />
-                </li>
-                <li className='num8 img'>
-                    <img src={Slide9} alt='' title='' />
-                </li>
-                <li className='num9 img'>
-                    <img src={Slide10} alt='' title='' />
-                </li>
-                <li className='num10 img'>
-                    <img src={Slide11} alt='' title='' />
-                </li>
-                <li className='num11 img'>
-                    <img src={Slide12} alt='' title='' />
-                </li>
-                <li className='num12 img'>
-                    <img src={Slide13} alt='' title='' />
-                </li>
-            </ul>
-
-            <div className='cs_description'>
-                <label htmlFor='' className='num0'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num1'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num2'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num3'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num4'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num5'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num6'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num7'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num8'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num9'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num10'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num11'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
-                <label htmlFor='' className='num12'>
-                    <span className='cs_title'>
-
-                    </span>
-                </label>
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='13' annot='Flowers and Photos from Barrett-Cross Wedding in 2012'>
+                <img src={Slide13} alt='Flowers and Photos from Barrett-Cross Wedding in 2012'/>
             </div>
 
-            <div className='cs_arrowprev'>
-                <label className='num0' htmlFor='cs_slide1_0'></label>
-                <label className='num1' htmlFor='cs_slide1_1'></label>
-                <label className='num2' htmlFor='cs_slide1_2'></label>
-                <label className='num3' htmlFor='cs_slide1_3'></label>
-                <label className='num4' htmlFor='cs_slide1_4'></label>
-                <label className='num5' htmlFor='cs_slide1_5'></label>
-                <label className='num6' htmlFor='cs_slide1_6'></label>
-                <label className='num7' htmlFor='cs_slide1_7'></label>
-                <label className='num8' htmlFor='cs_slide1_8'></label>
-                <label className='num9' htmlFor='cs_slide1_9'></label>
-                <label className='num10' htmlFor='cs_slide1_10'></label>
-                <label className='num11' htmlFor='cs_slide1_11'></label>
-                <label className='num12' htmlFor='cs_slide1_12'></label>
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='12' annot='Flowers and Photos from Hartley-Segal Wedding in 2007'>
+                <img src={Slide12} alt='Flowers and Photos from Hartley-Segal Wedding in 2007'/>
             </div>
 
-            <div className='cs_arrownext'>
-                <label className='num0' htmlFor='cs_slide1_0'></label>
-                <label className='num1' htmlFor='cs_slide1_1'></label>
-                <label className='num2' htmlFor='cs_slide1_2'></label>
-                <label className='num3' htmlFor='cs_slide1_3'></label>
-                <label className='num4' htmlFor='cs_slide1_4'></label>
-                <label className='num5' htmlFor='cs_slide1_5'></label>
-                <label className='num6' htmlFor='cs_slide1_6'></label>
-                <label className='num7' htmlFor='cs_slide1_7'></label>
-                <label className='num8' htmlFor='cs_slide1_8'></label>
-                <label className='num9' htmlFor='cs_slide1_9'></label>
-                <label className='num10' htmlFor='cs_slide1_10'></label>
-                <label className='num11' htmlFor='cs_slide1_11'></label>
-                <label className='num12' htmlFor='cs_slide1_12'></label>
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='11' annot='Flowers and Photos from Delgado Wedding in 2012'>
+                <img src={Slide11} alt='Flowers and Photos from Delgado Wedding in 2012'/>
             </div>
 
-            <div className='cs_bullets'>
-                <label htmlFor='cs_slide1_0' className='num0'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide1} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_1' className='num1'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide1} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_2' className='num2'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide2} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_3' className='num3'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide3} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_4' className='num4'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide4} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_5' className='num5'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide5} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_6' className='num6'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide6} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_7' className='num7'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide7} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_8' className='num8'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide8} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_9' className='num9'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide9} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_10' className='num10'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide10} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_11' className='num11'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide11} alt='' title='' />
-                    </span>
-                </label>
-                <label htmlFor='cs_slide1_12' className='num12'>
-                    <span className='cs_point'></span>
-                    <span className='cs_thumb'>
-                        <img src={Slide12} alt='' title='' />
-                    </span>
-                </label>
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='10' annot='Flowers and Photos from Barrett-Cross Wedding in 2012'>
+                <img src={Slide10} alt='Flowers and Photos from Barrett-Cross Wedding in 2012'/>
             </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='9' annot='Wood burning, steam run train at Altamont County Fair'>
+                <img src={Slide9} alt='Wood burning, steam run train at Altamont County Fair'/>
+            </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='8' annot='A prom wrist corsage'>
+                <img src={Slide8} alt='A prom wrist corsage'/>
+            </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='7' annot='A prom wrist corsage'>
+                <img src={Slide7} alt='A prom wrist corsage'/>
+            </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='6' annot='One of many shots in a photo-series I do called Through the Eyes of Horses'>
+                <img src={Slide6} alt='One of many shots in a photo-series I do called Through the Eyes of Horses'/>
+            </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='5' annot='Flowers and Photos from Sawyer-Rosenburg Wedding in 2019'>
+                <img src={Slide5} alt='Flowers and Photos from Sawyer-Rosenburg Wedding in 2019'/>
+            </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='4' annot='The car you can ride away in, if you host your reception at The State Room in Downtown Albany!'>
+                <img src={Slide4} alt='The car you can ride away in, if you host your reception at The State Room in Downtown Albany!'/>
+            </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='3' annot='Wood burning, steam run train at Altamont County Fair'>
+                <img src={Slide3} alt='Wood burning, steam run train at Altamont County Fair'/>
+            </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='2' annot='Performance of The Music Man by Park Playhouse Theatre'>
+                <img src={Slide2} alt='Performance of The Music Man by Park Playhouse Theatre'/>
+            </div>
+
+            <input type='checkbox' className='faux-ui-facia'/>
+            <div className='slide' slide='1' annot='Flowers and Photos from Sawyer-Rosenburg Wedding in 2019'>
+                <img src={Slide1} alt='Flowers and Photos from Sawyer-Rosenburg Wedding in 2019'/>
+            </div>
+
+            <div className='counter' count='13'> / 13</div>
+
         </div>
     );
 };
