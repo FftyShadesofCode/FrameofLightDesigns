@@ -469,8 +469,10 @@ navigation li a, .custom-footer, .custom-footer li a {
 #our-family .our-family, #our-family .content {
     flex: 1;
 }
-#our-family .our-family h3 {
-    font-size: 3rem;
+#our-family .our-family h1 {
+    font-size: 5rem;
+    color: var(--eucalyptus);
+    text-shadow: 2px 2px var(--primary-black), -0.5px -0.5px var(--lt-lavender);
 }
 #our-family .content p {
     font-size: 1rem;
@@ -553,4 +555,15 @@ navigation li a, .custom-footer, .custom-footer li a {
     body main .profile:nth-child(3), body main .profile:nth-child(5) {
         margin-top: 0px;
     }
+}
+
+/* Our Story */
+.our-story {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }

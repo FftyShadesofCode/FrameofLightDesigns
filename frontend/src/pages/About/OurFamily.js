@@ -7,7 +7,7 @@ export default function OurFamily() {
     return (
         <section id='our-family'>
             <div className='our-family'>
-                <h3>Our Family</h3>
+                <h1>Our Family</h1>
             </div>
             <div className='content'>
                 <p>We are family both in and out of business, we love what we do, and strive to bring creativity to a whole new level</p>
