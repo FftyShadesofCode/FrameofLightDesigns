@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -127,8 +126,8 @@ header {
  * Footer
 /* ------------------------------------------------------------- */
 #footer {
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    /*bottom: 0;*/
     font-size: .75rem;
     width: 100%;
     padding: 15px 0;
@@ -455,4 +454,44 @@ navigation li a, .custom-footer, .custom-footer li a {
     height: auto;
     z-index: 9999;
     padding: 25px;
+}
+
+/* Our Family */
+.our-family {
+    margin: 50px 250px;
+    display: grid;
+    grid-template-columns: 750px 2fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.ben-wrapper {
+    margin: 150px 0;
+}
+
+.img-wrapper {
+    width: 20rem;
+    text-align: justify;
+}
+
+.img-wrapper .ben {
+    width: 100%;
+    border-radius: 55%;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.ben-wrapper .ben-bio {
+    float: right;
+}
+
+.philip-wrapper {
+
+}
+
+.philip {
+    width: 85%;
+    border-radius: 55%;
+    margin-bottom: 25px;
+    float: right;
 }
