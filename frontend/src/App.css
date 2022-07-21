@@ -457,41 +457,100 @@ navigation li a, .custom-footer, .custom-footer li a {
 }
 
 /* Our Family */
-.our-family {
-    margin: 50px 250px;
-    display: grid;
-    grid-template-columns: 750px 2fr;
-    gap: 5rem;
+#our-family {
+    height: 20%;
+    display: flex;
     align-items: center;
+    text-align: center;
+    flex-direction: column;
+    column-gap: 50px;
+    color: var(--lt-lavender);
 }
-
-.ben-wrapper {
-    margin: 150px 0;
+#our-family .our-family, #our-family .content {
+    flex: 1;
 }
-
-.img-wrapper {
-    width: 20rem;
-    text-align: justify;
+#our-family .our-family h3 {
+    font-size: 3rem;
 }
-
-.img-wrapper .ben {
+#our-family .content p {
+    font-size: 1rem;
+}
+#our-family main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+    row-gap: 70px;
+    padding: 50px 0px;
+}
+#our-family main .profile {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#our-family main .profile figure {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#our-family main .profile figure img {
     width: 100%;
-    border-radius: 55%;
-    margin-bottom: 25px;
-    float: left;
 }
-
-.ben-wrapper .ben-bio {
-    float: right;
+#our-family main .profile figure figcaption {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 12px;
+    text-transform: capitalize;
+    cursor: pointer;
 }
-
-.philip-wrapper {
-
+#our-family main .profile figure::after {
+    content: attr(data-value);
+    width: 100%;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    right: -107%;
+    top: 0;
 }
-
-.philip {
-    width: 85%;
-    border-radius: 55%;
-    margin-bottom: 25px;
-    float: right;
+#our-family main .profile:nth-child(2) {
+    margin-top: 70px;
+}
+#our-family main .profile:nth-child(4) {
+    margin-top: -70px;
+}
+#our-family main .profile:nth-child(6) {
+    margin-top: -70px;
+}
+@media screen and (max-width: 600px) {
+    body {
+        width: 90%;
+        height: auto;
+        margin: 50px auto 10px;
+    }
+    body #our-family {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+    }
+    body #our-family .our-family {
+        align-self: flex-start;
+    }
+    body #our-family .our-family h3 {
+        font-size: 30px;
+    }
+    body main {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 0px;
+        row-gap: 0px;
+    }
+    body main .profile:nth-child(2), body main .profile:nth-child(4), body main .profile:nth-child(6) {
+        margin-top: 50px;
+    }
+    body main .profile:nth-child(3), body main .profile:nth-child(5) {
+        margin-top: 0px;
+    }
 }
