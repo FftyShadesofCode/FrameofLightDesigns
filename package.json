@@ -1,0 +1,21 @@
+{
+  "name": "frameoflightdesigns",
+  "version": "1.0.0",
+  "description": "React App for Frame of Light Designs",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && node &&  /index.js",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run server\" && cd .. && \"npm run start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FftyShadesofCode/FrameofLightDesigns.git"
+  },
+  "author": "Fifty Shades of Code",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FftyShadesofCode/FrameofLightDesigns/issues"
+  },
+  "homepage": "https://github.com/FftyShadesofCode/FrameofLightDesigns#readme"
+}

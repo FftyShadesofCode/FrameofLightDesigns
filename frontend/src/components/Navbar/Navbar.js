@@ -28,7 +28,7 @@ function Navbar() {
                            <li><a href='/photography-and-media'>Photography and Media</a></li>
                        </ul>
                    </li>
-                   <li><a href="/reviews">Reviews</a></li>
+                   <li><a href="/Reviews">Reviews</a></li>
                    <li><a href="/contact-us">Contact Us</a></li>
                </ul>
                <Button>Login</Button>

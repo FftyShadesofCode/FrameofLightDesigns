@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function Reviews() {
-    return (
-        <div>
-            
-        </div>
-    );
-};
+import ReviewContainer from "../components/Google/ReviewContainer";
+
+export default class Reviews extends Component {
+
+    render() {
+
+
+        return(
+            <div className='reviews'>
+                <ReviewContainer />
+            </div>
+        )
+    }
+}
